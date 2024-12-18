@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <style>
+        /* Add the CSS Styling here */
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: o;
+            overflow: hidden;
+            background-color: #333;
+        }
+        nav li {
+            float: left;
+        }
+        nav li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        nav li a:hover {
+            background-color: #111;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <h1>Welcome to my Website</h1>
+    <p>This is a demonstration of a simple navigable page layout using the nav element.</p>
+
+    <table>
+        <tr>
+          <th>Book Title</th>
+          <th colspan="2">Author</th>
+          <th>Year Published</th>
+          <th>Genre</th>
+        </tr>
+        <tr>
+          <td>January</td>
+          <td>$100</td>
+        </tr>
+        <tr>
+          <td>February</td>
+          <td>$80</td>
+        </tr>
+      </table>
+
+      <table>
+        <tr>
+          <th>Person</th>
+          <th colspan="2">Details</th>
+        </tr>
+        <tr>
+          <td>John Doe</td>
+          <td>Age: 30</td>
+          <td>Occupation: Developer</td>
+        </tr>
+      </table>
+<br>
+     <form action="/submit-form" method="post">
+        <label for="user-name">Username (4-8 characters)</label>
+        <input type="text" id="username" name="username" required minlength="4" maxlength="8" placeholder="Username">
+        <br>
+        <br>
+        <label for="/password-form">password</label>
+        <input type="password" name="password" id="password" placeholder="Password">
+        <br>
+        <br>
+        <label for="/email-form">Email</label>
+        <input type="email" name="email" id="email" placeholder="Email">
+        <br>
+        <br>
+        <label for="/Age-form">Age</label>
+        <input type="Age" name="Age" id="Age" placeholder="Age">
+        <br>
+        <br>
+        <label for="/Terms of service-checkbox">(Must check box to proceed)</label>
+        <input type="checkbox">
+        <br>
+        <br>
+        <label for="submit-form">Submit</label>
+        <input type="submit">
+        <br>
+        <br>
+        <figure>
+            <img src="maxresdefault (1).jpg" alt="Astronomy image">
+            <figcaption>Photo credit: NASA <em>1909</em></figcaption>
+        </figure>
+        <br>
+        <audio controls>
+            <source src="Mercy-Chinwo-Wonder-(TrendyBeatz.com).mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        <video controls width="250">
+            <source src="https://www.youtube.com/watch?v=NQ1p_Zfp0x0" type="video/ogg">
+            <track src="" kind="captions" srclang="en" label="English"></track>
+        </video>
+        
